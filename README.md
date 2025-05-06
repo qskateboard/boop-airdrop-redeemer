@@ -81,9 +81,9 @@ The application is configured using environment variables:
 
 ## Authentication Methods
 
-The application supports two authentication methods:
+The application supports auto authentication method:
 
-### 1. Private Key Authentication (Recommended)
+### Private Key Authentication
 
 Simply provide your wallet's private key:
 ```
@@ -117,7 +117,7 @@ For monitoring, claiming, and selling valuable airdrops:
 #### Manual Run
 
 ```bash
-# Set configuration (private key method)
+# Set configuration 
 export WALLET_PRIVATE_KEY="YOUR_PRIVATE_KEY"
 export MINIMUM_USD_THRESHOLD="0.15"
 export ENABLE_TELEGRAM="true"
