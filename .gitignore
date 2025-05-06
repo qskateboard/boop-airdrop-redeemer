@@ -1,0 +1,5 @@
+data/*
+solana/boop/pda.go 
+solana/boop/pda_test.go
+bin/*
+scripts/run_auto_claimer_prod.bat
